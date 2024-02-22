@@ -1,0 +1,50 @@
+<!-- <ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Exercício 1
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-item>
+    <ion-input label="Doação em Dólar" [(ngModel)]="dolar"
+    labelPlacement="floating"
+    placeholder="Doação em DOlar"
+    type="number"
+    ></ion-input>
+  </ion-item>
+
+  <ion-button expland="block" (click)="Converter()">Converter </ion-button>
+  <ion-label>{{"R$"+reais}}</ion-label>
+</ion-content> -->
+
+
+
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Exercício 2
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-item>
+    <ion-input label="AC" [(ngModel)]="ac" labelPlacement="floating" placeholder="AC"
+      type="number"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-input label="AGH" [(ngModel)]="agh" labelPlacement="floating" placeholder="AGH"
+      type="number"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-input label="AT" [(ngModel)]="at" labelPlacement="floating" placeholder="AT"
+      type="number"></ion-input>
+  </ion-item>
+
+  <ion-button expland="block" (click)="Nota()">Converter </ion-button>
+  <ion-label>{{"Sua nota foi "+res}}</ion-label>
+</ion-content>
